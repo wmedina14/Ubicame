@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Opticas Visión Maps</string>
+    <string name="rTituloPrincipal">Ópticas Visión</string>
+    <string name="rUbicanos">Ubícame</string>
+    <string name="rVerTodasSucursales">Buscar Sucursal</string>
+    <string name="rVerMapa">Ver solo el mapa</string>
+    <string name="rMapa">Mapa</string>
+    <string name="rConsultar">Consultar</string>
+    <string name="rProvincias"> Seleccione una Provincia:</string>
+    <string name="rSeleccion">Consultar Provincia</string>
+    <string name="rInfoSucursal">Información de la sucursal</string>
+    <string name="rInfoSucursales">Información de la Sucursal</string>
+    <string name="rBLocalizar">Localizar</string>
+    <string name="rLInformacion">Pulse sobre el "ojo" para ver más información</string>
+    <string name="eBTiendaVirtual">Tienda Virtual</string>
+    <string name="title_activity_ubicanos">Ubicanos</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+   <!-- Mensajes de Mapa -->
+   <string name="gMensaje_InFormacion_Datos_Sucursales">Puede pulsar sobre los iconos para mostrar más información</string>
+   <string name="gTitulo_InFormacion_Datos_Sucursales">Información</string>
+   <string name="gMapsUsuario">Usted está aquí</string>
+    
+</resources>

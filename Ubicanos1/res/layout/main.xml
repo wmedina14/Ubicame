@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="20sp" >
+
+        <ImageView
+            android:id="@+id/ibAbrirPagina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.97"
+            android:src="@drawable/logo" android:adjustViewBounds="true" android:layout_gravity="top|center_vertical|center_horizontal|center"/>
+
+        <FrameLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.97" >
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_vertical|center_horizontal|center"
+        android:layout_margin="10sp"
+        android:layout_weight="0.51"
+        android:baselineAligned="true"
+        android:baselineAlignedChildIndex="1"
+        android:gravity="bottom|center_vertical|center_horizontal|center"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </FrameLayout>
+
+
+
+
+
+        <Button
+            android:id="@+id/bTiendaVirtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton3"
+            android:gravity="center"
+            android:paddingLeft="35sp"
+            android:paddingTop="10sp"
+            android:text="@string/eBTiendaVirtual"
+            android:textColor="#141414"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bTodasSucursales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rVerTodasSucursales" android:background="@drawable/boton1" android:paddingTop="24sp" android:textStyle="bold" android:textColor="#141414" android:gravity="left" android:paddingLeft="80sp" android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/bUbicame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rUbicanos" android:paddingLeft="80sp" android:background="@drawable/boton2" android:gravity="left" android:paddingTop="24sp" android:textColor="#141414" android:textStyle="bold" android:textSize="18sp"/>
+    </LinearLayout>
+
+</LinearLayout>
